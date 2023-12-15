@@ -66,6 +66,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -84,4 +85,14 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+    width: 50%;
+    
+}
+
+/* Addedd and id to align ul of locations */
+#location {
+    width: 100px;
+    text-align: center;
+    padding-right: 20px;
+    margin: 0 auto;
 }
